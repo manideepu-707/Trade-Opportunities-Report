@@ -48,9 +48,12 @@ Trade Opportunities Report is a Python project for analyzing and reporting poten
 Trade-Opportunities-Report/
 │
 ├── main.py
-├── report_generator.py
-├── data/
-│   └── sample_data.csv
+├── core/
+    └── auth.py
+    └── rate_limiter.py
+    └── session.py
+├── models/
+│   └── schema.py
 ├── outputs/
 │   └── trade_report.pdf
 ├── requirements.txt
