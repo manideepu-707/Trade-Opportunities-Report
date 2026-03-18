@@ -49,13 +49,19 @@ Trade-Opportunities-Report/
 │
 ├── main.py
 ├── core/
-    └── auth.py
-    └── rate_limiter.py
-    └── session.py
+│   └── auth.py
+│   └── rate_limiter.py
+│   └── session.py
 ├── models/
 │   └── schema.py
-├── outputs/
-│   └── trade_report.pdf
+├── routes/
+│   └── analyze.py
+│   └── auth_route.py
+│   └── home.py
+├── services/
+│   └── ai_analyzer.py
+│   └── data_collector.py
+│   └── report_generator.py
 ├── requirements.txt
 └── README.md
 ```
