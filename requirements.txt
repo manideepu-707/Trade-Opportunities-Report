@@ -1,0 +1,8 @@
+uvicorn
+fastapi
+python-dotenv
+slowapi
+pydantic
+httpx
+python-jose
+google-genai
